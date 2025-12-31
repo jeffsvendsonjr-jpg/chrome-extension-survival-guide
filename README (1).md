@@ -1,4 +1,4 @@
-# The Chrome Extension Developer's Field Guide
+# The Chrome Extension survival Guide
 
 > The resource that should exist but doesn't.
 
@@ -10,7 +10,7 @@ A practical, honest guide to building, launching, and sustaining a Chrome extens
 
 Google's official documentation is incomplete. Stack Overflow answers are outdated. Most blog posts assume Manifest V2.
 
-This guide covers what actually happens when you try to ship an extension in 2024-2025: the rejections, the cryptic violation notices, the permission justifications that take days to get right, the broken privacy policy link that costs you a week.
+This guide covers what actually happens when you try to ship an extension in 2025: the rejections, the cryptic violation notices, the permission justifications that take days to get right, the broken privacy policy link that costs you a week.
 
 ---
 
@@ -56,7 +56,7 @@ Before writing a single line of code, read the [Chrome Web Store Program Policie
 
 ### Manifest V3 Is Required for New Submissions
 
-As of late 2024, new Manifest V2 extensions are no longer accepted for the public Chrome Web Store. If you're following an old tutorial, stop. New submissions must be MV3.
+As of 2025, new Manifest V2 extensions are no longer accepted for the public Chrome Web Store. If you're following an old tutorial, stop. New submissions must be MV3.
 
 **Key MV3 differences:**
 - Background pages → Service workers (no persistent background)
@@ -505,6 +505,6 @@ You're free to share and adapt it, even commercially, as long as you give credit
 
 ---
 
-*Last updated: December 2024*
+*Last updated: December 2025*
 
 *The most technologically advanced mega corporation on earth runs marginally faster than a 1992 DMV. This guide helps you survive the wait.*
